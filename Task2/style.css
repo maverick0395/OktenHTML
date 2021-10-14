@@ -1,0 +1,42 @@
+body {
+    background-color: coral;
+}
+
+.header_position {
+    text-align: center;
+}
+
+.stick_to_the_top {
+    background-color: darkcyan;
+    position: sticky;
+    top: 0;
+}
+
+.image_box {
+    display: flex;
+    justify-content: space-around;
+    height: 250px;
+}
+
+.text_style {
+    font-family: "Abyssinica SIL", serif;
+}
+
+.content_position {
+    text-align: justify;
+}
+
+img:hover {
+    border: 5px solid aqua;
+    border-radius: 50%;
+}
+
+li:hover {
+    color: chartreuse;
+}
+
+li a:hover {
+    color: blue;
+    font-size: 150%;
+    text-decoration: none;
+}
