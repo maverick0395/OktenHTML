@@ -1,0 +1,43 @@
+body {
+    display: flex;
+    flex-wrap: wrap;
+    column-gap: 1%;
+    row-gap: 1px;
+}
+
+.block {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#header {
+   background-color: #89c7f8;
+
+    flex-basis: 100%;
+}
+
+#nav {
+    background-color: #02213b;
+
+    flex-basis: 100%;
+}
+
+#menu {
+    background-color: #1e87d5;
+
+    flex-basis: 70%;
+    height: 400px;
+}
+
+#aside {
+    background-color: #037bde;
+
+    flex-basis: 29%;
+}
+
+#footer {
+    background-color: #2e98ec;
+
+    flex-basis: 100%;
+}

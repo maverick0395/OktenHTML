@@ -1,0 +1,56 @@
+body {
+    display: flex;
+    flex-wrap: wrap;
+    column-gap: 1%;
+    row-gap: 5px;
+}
+
+.block  {
+    background-color: #e07c6b;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.A {
+    flex-basis: 100%;
+    height: 100px;
+}
+
+.wrapper {
+    flex-basis: 80%;
+    height: 200px;
+
+    display: flex;
+    flex-wrap: wrap;
+    column-gap: 0.5%;
+    row-gap: 5px;
+}
+
+.B {
+    flex-basis: 33%;
+}
+
+.C {
+    flex-basis: 33%;
+}
+
+.D {
+    flex-basis: 33%;
+}
+
+.E {
+    flex-basis: 33%;
+}
+
+.F {
+    flex-basis: 33%;
+}
+
+.G {
+    flex-basis: 33%;
+}
+
+.H {
+    flex-basis: 19%;
+}
