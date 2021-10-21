@@ -1,0 +1,28 @@
+body {
+    display: flex;
+    column-gap: 1%;
+    row-gap: 20px;
+    flex-wrap: wrap;
+}
+
+.block {
+    background-color: #0c92f1;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.A {
+    width: 100%;
+}
+
+.B {
+    width: 70%;
+}
+.C {
+    width: 29%;
+}
+
+
+

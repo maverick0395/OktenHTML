@@ -1,0 +1,56 @@
+html {
+    height: 100%;
+}
+
+body {
+    height: 100%;
+
+    display: flex;
+    column-gap: 0.5%;
+    row-gap: 10px;
+    flex-wrap: wrap;
+}
+
+.block {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.bg_green {
+    background-color: #45e345;;
+}
+
+.height135 {
+    height: 135px;
+}
+
+.height308 {
+    height: 312px;
+}
+
+#header {
+    width: 100%;
+    align-self: flex-start;
+}
+
+#menu {
+    height: 69.5%;
+    width: 20%;
+}
+
+.post-container {
+    width: 79.5%;
+    display: flex;
+    flex-wrap: wrap;
+    row-gap: 1%;
+}
+
+.post {
+    width: 100%;
+}
+
+#footer {
+    width: 100%;
+    align-self: flex-end;
+}
