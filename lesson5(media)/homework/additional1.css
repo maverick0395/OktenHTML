@@ -1,0 +1,461 @@
+* {
+    margin: 0;
+}
+
+.navigation {
+    height: 65px;
+
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+
+    padding-right: 80px;
+}
+
+.nav-element {
+    height: 20px;
+
+    border-radius: 30px;
+
+    margin: 10px;
+    padding: 0 15px;
+
+    overflow: hidden;
+}
+
+.header {
+    height: 115px;
+
+    display: flex;
+    justify-content: space-between;
+}
+
+.logo {
+    height: 70px;
+    width: 150px;
+
+    border-radius: 10px;
+
+    margin: 15px 0 0 100px;
+}
+
+.header-elements-wrapper {
+    display: flex;
+
+    padding:60px 75px 0 0;
+}
+
+.header-element {
+    height: 20px;
+    width: 80px;
+
+    border-radius: 30px;
+
+    margin: 0 20px;
+
+    text-align: center;
+}
+
+.banner {
+    height: 300px;
+
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.banner > p {
+    width: 35%;
+    text-align: center;
+}
+
+.banner-button {
+    width: 180px;
+    height: 40px;
+
+    border-radius: 30px;
+
+    margin-top: 10px;
+}
+
+.large-section{
+    width: 100%;
+    height: 300px;
+
+    display: flex;
+    justify-self: center;
+    align-items: center;
+}
+
+.card-list-title {
+    display: inline;
+}
+
+.wrapper-with-border {
+    border: 1px solid #4aafdc;
+    border-radius: 50px;
+
+    flex-basis: 100%;
+    height: 80%;
+
+    margin: 0 20px;
+    padding: 20px 0;
+
+    text-align: center;
+}
+
+.description-element{
+    height: 20px;
+
+    border-radius: 20px;
+
+    padding: 2px 5px;
+    margin-top: 10px;
+
+    overflow: hidden;
+
+    text-align: center;
+}
+
+.card-list {
+    flex-basis: 100%;
+
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.card {
+    flex-basis: 20%;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: center;
+
+}
+
+.card__image {
+    border-radius: 20px;
+
+    width: 120px;
+    height: 120px;
+
+    margin: 20px 0 20px 0;
+}
+
+.width200{
+    width: 200px;
+}
+
+.round {
+    border-radius: 50%;
+}
+
+.smaller-text-size {
+    font-size: small;
+}
+
+.main-section {
+    height: 1100px;
+
+    padding-top: 40px;
+
+    /*text-align: center;*/
+
+}
+
+.main-section__header {
+    margin-bottom: 40px;
+    text-align: center;
+}
+
+.item-catalogue {
+    width: 80%;
+    display: flex;
+    flex-wrap: wrap;
+    column-gap: 10px;
+    row-gap: 10px;
+    justify-content: center;
+
+    margin: 0 auto;
+}
+
+.item {
+    height: 275px;
+
+    flex-basis: 25%;
+    border: 1px solid #4aafdc;
+    border-radius: 10px;
+}
+
+.item p:first-child, .item h4 {
+    height: 18px;
+
+    overflow: hidden;
+
+}
+
+.item__main-desription {
+    height: 36px;
+
+    overflow: hidden;
+}
+
+.item__image {
+    height: 120px;
+    width: 90%;
+
+    border-radius: 30px;
+
+    margin: 10px auto;
+}
+
+.item__upper-description-wrapper {
+    display: flex;
+    justify-content: space-between;
+
+    margin: 0 10px;
+}
+
+.item__main-desription {
+    margin: 5px 10px;
+}
+
+.item__lower-options {
+    height: 30px;
+    border-top: 1px solid #4aafdc;
+    margin-top: 20px;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    padding: 0 10px;
+}
+
+.item__lower-options__big-button {
+    height: 15px;
+    width: 40px;
+
+    border-radius: 30px;
+}
+
+.item__lower-options__button-wrapper {
+    display: flex;
+}
+
+.item__lower_options__small-button {
+    height: 15px;
+    width: 15px;
+
+    border-radius: 50%;
+
+    margin: 0 5px;
+}
+
+.lower-banner-wrapper {
+    width: 65%;
+    height: 300px;
+
+    margin: 100px auto 0;
+
+    display: flex;
+}
+
+.lower-banner {
+    height: 300px;
+    width: 50%;
+
+    box-sizing: border-box;
+    padding: 80px 80px 80px 40px;
+
+}
+
+.lower-banner > p {
+    max-height: 75px;
+
+    margin: 30px 0;
+
+    overflow: hidden;
+}
+
+.lower-banner > h3 {
+    height: 22px;
+
+    overflow: hidden;
+}
+
+.lower-banner .banner-button {
+    width: 50%;
+
+    margin: 0 auto;
+}
+
+.footer {
+    height: 200px;
+    padding-top: 20px;
+    text-align: center;
+}
+
+.icon-wrapper {
+    width: 30%;
+    display: flex;
+    justify-content: center;
+
+    margin: 30px auto 0;
+    padding-bottom: 20px;
+
+    border-bottom: 1px solid #3ac6ea;
+}
+
+.footer-icon {
+    height: 20px;
+    width: 20px;
+
+    border-radius: 5px;
+
+    margin: 0 5px;
+}
+
+.footer-options {
+    width: 30%;
+
+    display: flex;
+    justify-content: center;
+    column-gap: 10px;
+
+    margin: 10px auto 0;
+}
+
+.bg-dark {
+    background-color: #102b3e;
+}
+
+.bg-light {
+    background-color: #ced8df;
+}
+
+.bg-blue {
+    background-color: #3ac6ea;
+}
+
+.font-color-dark {
+    color: #02213b;
+}
+
+.font-color-blue {
+    color: #3ac6ea;
+}
+
+.font-color-light {
+    color: #ced8df;
+}
+
+@media screen and (max-width: 900px) {
+    .logo {
+        width: 15%;
+
+        margin: 15px 0 0 15px;
+    }
+
+    .header-elements-wrapper {
+        width: 70%;
+        padding: 60px 0 0;
+    }
+
+    .header-element {
+        width: 15%;
+    }
+
+    .wrapper-with-border .card:last-child {
+        display: none;
+    }
+
+    .item {
+        flex-basis: 35%;
+    }
+
+    .main-section {
+        height: 1400px;
+    }
+
+    .lower-banner {
+        padding: 80px 10px;
+    }
+
+    .lower-banner .banner-button {
+        width: 70%;
+    }
+}
+
+@media screen and (max-width: 650px){
+    .navigation {
+        justify-content: center;
+
+        padding: 0;
+    }
+
+    .nav-element {
+        width: 10%;
+    }
+
+    .header-element {
+        width: 25%;
+
+        margin: 0 5px;
+
+        overflow: hidden;
+    }
+
+    .banner > p {
+        max-height: 126px;
+
+        overflow: hidden;
+    }
+
+    .large-section {
+        height: fit-content;
+    }
+
+    .main-section {
+        height: 1700px;
+    }
+
+    .wrapper-with-border {
+        margin: 20px;
+    }
+
+    .card-list {
+        flex-direction: column;
+    }
+
+    .card {
+        margin: 10px 0;
+    }
+
+    .lower-banner-wrapper {
+        height: fit-content;
+
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .lower-banner {
+        width: 75%;
+    }
+}
+
+@media screen and (max-width: 400px) {
+    .item {
+        flex-basis: 65%;
+    }
+
+    .main-section {
+        height: 2500px;
+    }
+}
