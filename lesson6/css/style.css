@@ -1,0 +1,153 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+    display: block;
+}
+
+body {
+    line-height: 1;
+    /*font-family: 'Roboto', sans-serif;*/
+    font-family: 'Tinos', serif;
+}
+
+.wrapper {
+    max-width: 1200px;
+
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+header {
+    background: url("../image/bg.png") no-repeat center/cover;
+}
+
+.header__menu {
+    column-gap: 20px;
+}
+
+.nav {
+    column-gap: 23px;
+
+    border-right: 1px solid yellow;
+}
+.nav__option img {
+    width: 20px;
+}
+
+.header__contacts {
+    column-gap: 45px;
+}
+
+.header__phone {
+    width: 155px;
+}
+
+.header__button {
+    background-color: #FF7400;
+}
+
+.nav__btn_mobile {
+    display: none;
+
+    width: 30px;
+
+    flex-direction: column;
+    row-gap: 4px;
+}
+
+.nav__btn_mobile div {
+    height: 3px;
+
+    background-color: #FF7400;
+    border-radius: 50px;
+}
+
+.header__title {
+    width: 500px;
+
+    color: #D67E35;
+
+    margin-top: 203px;
+}
+
+.header__title h2 {
+    font-size: 50px;
+    line-height: 57px;
+}
+
+.header__title h1 {
+    font-size: 80px;
+    line-height: 92px;
+}
+
+.header__title p {
+    column-gap: 8px;
+}
+
+.header__title p::before, .header__title p::after {
+    content: "";
+    display: block;
+    background-color: #FFFFFF;
+    height: 2px;
+    width: 61px;
+}
+
+.features {
+    column-gap: 31px;
+
+    bottom: -221px;
+    z-index: 1;
+}
+
+.feature__item {
+    width: 349px;
+    height: 328px;
+
+}
+
+.feature__item img {
+    max-width: 87px;
+
+    margin-top: 61px;
+}
+
+.feature__item h3 span {
+    color: #BC9060;
+}
+
+.feature__item p {
+    color: #656363;
+}
+
+
+
+
+
+
+
+
+
+
+
+
