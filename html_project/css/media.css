@@ -605,6 +605,7 @@
     }
 
     .header {
+        width: 414px;
         height: 161px;
 
         padding: 34px 15px 0;
@@ -1131,6 +1132,7 @@
     }
 
     footer {
+        width: 414px;
         height: 1207px;
 
         margin-top: 70px;
@@ -1203,6 +1205,10 @@
 
     .social {
         column-gap: 40px;
+    }
+
+    .under_footer {
+        width: 414px;
     }
 }
 
@@ -1277,6 +1283,10 @@
         column-gap: 14px;
     }
 
+    .item_catalogue::before, .item_catalogue::after {
+        width: 320px;
+    }
+
     .item_catalogue::before {
         top: 305px;
     }
@@ -1297,5 +1307,14 @@
     .news__item p {
         width: 290px;
     }
+
+    footer {
+        width: 320px;
+    }
+
+    .under_footer {
+        width: 320px;
+    }
+
 }
 
