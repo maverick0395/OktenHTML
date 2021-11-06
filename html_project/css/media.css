@@ -1,4 +1,9 @@
 @media screen and (max-width: 768px) {
+    html {
+        width: 768px;
+
+        overflow-x: hidden;
+    }
     .nav {
         width: 768px;
 
@@ -586,6 +591,10 @@
 }
 
 @media screen and (max-width: 414px) {
+    html {
+        width: 414px;
+    }
+
     .nav {
         width: 414px;
         height: 34px;
@@ -985,7 +994,7 @@
     }
 
     .item_catalogue::before, .item_catalogue::after {
-        width: 414px;
+        width: 384px;
     }
 
     .item_catalogue::before {
@@ -1213,6 +1222,10 @@
 }
 
 @media screen and (max-width: 320px) {
+    html {
+        width: 320px;
+    }
+
     .nav {
         width: 320px;
     }
@@ -1270,6 +1283,26 @@
         bottom: 10px;
     }
 
+    .discount__item {
+        min-width: 250px;
+    }
+
+    .product-categories .category {
+        min-width: 250px;
+    }
+
+    .option_sections .product_set {
+        min-width: 160px;
+    }
+
+    .option_sections .discount_section {
+        min-width: 82px;
+    }
+
+    .option_sections .now_buying {
+        min-width: 156px;
+    }
+
     .user_fields {
         width: 320px;
 
@@ -1284,7 +1317,7 @@
     }
 
     .item_catalogue::before, .item_catalogue::after {
-        width: 320px;
+        width: 290px;
     }
 
     .item_catalogue::before {
